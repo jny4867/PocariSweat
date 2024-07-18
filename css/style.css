@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*    Reset CSS  */
+* { margin:0;  padding:0; }
+a { outline:0; text-decoration:none; color:#000000;}
+ul { list-style: none; }
+img { border:0;}
+
+/*폰트 설정*/
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-display: block;
+  font-style: normal;
+}  
+
+/* 배경동영상 */
+.vid { width:100%; height:100%; position:fixed; top:-60px; left:-70px; opacity:0.9; }
+.vid video { width:100%; min-width:1600px; object-fit: cover}
+
+body{
+  position:fixed;  
+  width:100%; 
+  height:100%; 
+  background:#111;
+}
+ 
+/*포카리 원형 로고*/
+h1 {
+  position: fixed;
+  bottom: -30px;
+  left: 160px;
+  z-index: 11;
+
+.logo_img {
+  width: 180px;
+  height: auto; 
+}
+}
+/*오츠카 회사 로고*/
+h2 {
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+    z-index: 10;
+
+  .c_logo_img {
+    width: 80px; 
+    height: auto;
+  }
+}
+/*편의점 픽셀아트*/
+h3 {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  z-index: 10;
+
+.lawson_img {
+  width: 230px;
+  height: auto;
+}
+}
+/*포카리 캔 이미지*/
+h4 {
+  position: fixed;
+  bottom: 270px;
+  left: 10px;
+  z-index: 11;
+
+.can_img {
+  width: 250px;
+  height: auto;
+  transform: rotate(20deg);
+}
+}
+/*얼음 이미지*/
+h5 {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  z-index: 10;
+  border-radius: 70%;
+  overflow: hidden;
+
+.pice_img {
+  width: 270px; 
+  object-fit: cover;
+}
+}
+/*별모양 아이콘*/
+h6 {
+  font-size: 100px; 
+  position: fixed;
+  bottom: -20px;
+  left: 125px;
+  z-index: 12;
+}
+
+.nes-balloon {
+  width: 170px; height: 60px;
+  position:absolute;
+  transition: transform 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .nes-balloon:nth-child(1) {
+    bottom: 580px;
+    right: 130px;
+    z-index: 10;
+   }
+   .nes-balloon:nth-child(2) {
+    bottom: 490px;
+    right: 90px;
+    z-index: 10;
+   }
+   .nes-balloon:nth-child(3) {
+      bottom: 400px;
+      right: 50px;
+      z-index: 10;
+   }
+   .nes-balloon:nth-child(4) {
+    bottom: 310px;
+    right: 15px;
+    z-index: 10;
+ }
+
+ .nes-badge{
+  width: 220px; height: 50px;
+  position:absolute;
+  transition: transform 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -5px;
+  right:18px;
+  z-index: 10;
+}
+
+.nes-balloon:hover {
+  transform: scale(1.1);
+}
+
+#circle {
+
+  width : 530px;
+  height : 530px;
+  border-radius: 70%;
+  background-color: rgb(115, 195, 241);
+  position: fixed;
+  bottom: -200px;
+  left: -250px;
+  z-index: 8;
+  opacity : 0.5;
+
+}
+#circle1 {
+  width : 350px;
+  height : 350px;
+  border-radius: 70%;
+  background-color: rgb(249, 238, 167);
+  position: fixed;
+  bottom: 250px;
+  left: -200px;
+  z-index: 7;
+  opacity : 0.7;
+
+}
+#circle2 {
+  width : 700px;
+  height : 700px;
+  border-radius: 60%;
+  background-color: rgb(115, 195, 241);
+  position: fixed;
+  top: -330px;
+  right: -450px;
+  z-index: 7;
+  opacity : 0.5;
+
+}
+
+/* sns 버튼*/
+#sns { width: 50; position:fixed; top:20px; left:30px;}
+#sns li { float:left; margin-right:20px;}
+#sns .fa { font-size:7px; opacity:0.5;	transform:scale(1); 	transition:all 0.5s;}
+#sns .fa:hover { opacity:1; transform:scale(1.4);}
