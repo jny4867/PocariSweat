@@ -106,22 +106,22 @@ h6 {
 }
   .nes-balloon:nth-child(1) {
     bottom: 580px;
-    right: 130px;
+    right:30px;
     z-index: 10;
    }
    .nes-balloon:nth-child(2) {
     bottom: 490px;
-    right: 90px;
+    right: 30px;
     z-index: 10;
    }
    .nes-balloon:nth-child(3) {
       bottom: 400px;
-      right: 50px;
+      right: 30px;
       z-index: 10;
    }
    .nes-balloon:nth-child(4) {
     bottom: 310px;
-    right: 15px;
+    right: 30px;
     z-index: 10;
  }
 
@@ -151,7 +151,7 @@ h6 {
   bottom: -200px;
   left: -250px;
   z-index: 8;
-  opacity : 0.5;
+  opacity : 0.9;
 
 }
 #circle1 {
@@ -163,7 +163,7 @@ h6 {
   bottom: 250px;
   left: -200px;
   z-index: 7;
-  opacity : 0.7;
+  opacity : 0.9;
 
 }
 #circle2 {
@@ -172,15 +172,15 @@ h6 {
   border-radius: 60%;
   background-color: rgb(115, 195, 241);
   position: fixed;
-  top: -330px;
+  top: -300px;
   right: -450px;
   z-index: 7;
-  opacity : 0.5;
+  opacity : 0.9;
 
 }
 
 /* sns 버튼*/
-#sns { width: 50; position:fixed; top:20px; left:30px;}
+#sns { width: 50; position:fixed; top:10px; left:20px;}
 #sns li { float:left; margin-right:20px;}
 #sns .fa { font-size:7px; opacity:0.5;	transform:scale(1); 	transition:all 0.5s;}
 #sns .fa:hover { opacity:1; transform:scale(1.4);}
