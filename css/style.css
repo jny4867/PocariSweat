@@ -180,7 +180,8 @@ h6 {
 }
 
 /* sns 버튼*/
-#sns { width: 50; position:fixed; top:10px; left:20px;}
+#sns { width: 20; position:fixed; top:10px; left:20px;} 
+/*크기가 안 바껴요 ㅜ ㅜ*/
 #sns li { float:left; margin-right:20px;}
-#sns .fa { font-size:7px; opacity:0.5;	transform:scale(1); 	transition:all 0.5s;}
+#sns .fa { font-size:5px; opacity:0.5;	transform:scale(1); 	transition:all 0.5s;}
 #sns .fa:hover { opacity:1; transform:scale(1.4);}
